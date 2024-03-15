@@ -1,6 +1,7 @@
 project:
   type: book
-
+  output-dir: docs 
+  
 book:
   title: "Learning Diary RS"
   author: "Andrio emilio"
