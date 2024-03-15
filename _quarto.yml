@@ -3,8 +3,7 @@ project:
 
 book:
   title: "Learning Diary RS"
-  author: "Norah Jones"
-  date: "15/03/2024"
+  author: "Andrio emilio"
   chapters:
     - index.qmd
     - intro.qmd
