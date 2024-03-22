@@ -1,3 +1,5 @@
+\<div style="text align: justify"\>
+
 # Summary
 
 In summary, this book has no content whatsoever.
