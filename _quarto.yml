@@ -3,8 +3,24 @@ project:
   output-dir: docs 
   
 book:
-  title: "Learning Diary RS"
+  title: "So you want to know about Remote Sensing Andrio?"
   author: "Andrio emilio"
+  favicon: "images/casa.png"
+  navbar:
+    logo: "images/ucl-logo.png"
+    collapse: true
+    collapse-below: lg
+    background: light
+    reader-mode: true
+    search: true
+    right:
+      - icon: github
+  sidebar:
+    title: "CASA0024 Learning Diary"
+    style: docked
+    reader-mode: true
+  repo-url: https://github.com/andrioemilio/CASA-RS
+  repo-actions: [issue]
   chapters:
     - index.qmd
     - intro.qmd
@@ -13,11 +29,20 @@ book:
 
 bibliography: references.bib
 
+
 format:
   html:
-    theme: cosmo
+    title-block-banner: images/banner.jpg
+    #cover-image: img/casa.png
+  #css: textures.css
+    theme: 
+    # textures.css
+        light: [cerulean, flatly]
+        dark: [cerulean, darkly]
+    code-link: true
   pdf:
-    documentclass: scrreprt
+    # documentclass: scrreprt
+    documentclass: scrbook
 
 editor: visual
 

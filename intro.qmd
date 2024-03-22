@@ -1,1 +1,131 @@
-# my work
+<div style="text-align: justify">
+
+
+```{css echo=FALSE}
+p.caption {
+  text-align: left; 
+  color: gray; 
+  font-style: italic; 
+}
+```
+
+
+# Issue 1 - The journey awaits
+
+This is the first entry into my diary and the start of a new semester! In the none remote sensing centered part of my life l had made a new year's resolution to practice more Spanish, primarily watching spongebob *en Espanol*, but let's see how that resolution goes...
+
+As well as this, it seemed that the stars had aligned and every show, piece of music or even media that I saw was about New Orleans. I walked into the seminar on Thursday listening to the song Yellow moon by New Orleans jazz band the Neville brothers. So of course, in this entry I wanted to use what I learnt about remote sensing to explore Louisianna!
+
+I came out of this week with an overwhelming fear of how to make a concise entry that holds all of the points shown by Spongebob in [S01E02](https://www.rottentomatoes.com/tv/spongebob_squarepants/s01/e02) (not edited at all).
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center', fig.cap="One of my facourite episodes"}
+
+knitr::include_graphics('issue_1/WK1.png')
+
+
+```
+
+And then a path was formed!  (Shown by Spongebob in [S03E44](https://spongebob.fandom.com/wiki/Nasty_Patty), still, not edited at all.) 
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center', fig.cap="Another of my facourite episodes"}
+
+knitr::include_graphics('issue_1/Thought_Process_issue_1.png')
+
+
+```
+
+## So what is remote sensing? – A geospatial analysists dream!
+In my understanding, it is a subset of GIS, with a varied range of applications and uses. In short, sensors are used to collect information about the earth’s surface and then this can be used for analysis. The information is detected by measuring the differing types of Eledtromagnetic radiation and assessing from such what an object/landscape is. For instance, sensors like SAR and LiDAR  have the capacity  to detect differences in  buildings; i.e. made of tin / made of concrete. They have even been used in mapping informal settlements. 
+Sensors can be active or passive. This, in basic terms, tells you how they collect the information, by natural means or emitting their own source. The ability to distinguish an object or phenomena is known by its spectral signature.  
+There are many types of sensors, ranging from orbiting space or being able to fit in your pocket (for instance, some iphones have a lidar sensor)! 
+Of course the range of sensors will not collect the same information. The pictures below shows the correspondence of waves and the features inferred (left) as well as some sensors to capture them (right). 
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('issue_1/satellite.jpg')
+
+```
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('issue_1/sensor.jpg')
+
+```
+
+Further on to this, the resolutions play a role in what is captured for analysis, there are often some trade offs from one resolution type to another. The four main types are as followed: 
+
+*	Spectral, the number of bands the sensor records
+*	Spatial, the size of each pixel
+*	Temporal, how frequent the area will revisit
+*	Radiometric, the range of reflectance
+
+## Applications
+So, the biggest question I had from this is, theoretically, could you prove bikini bottom exists from remote sensing? Well, probably not, but there is growing analysis of using remote sensing for marine biological observation. As shown below sensors have been used to monitor the biological and physical attributes of marine areas including sea surface height, sea surface temperature, salinity  and chlorophyll. 
+
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center', fig.cap="Waters off the Alaskan coast usually come alive each spring with blooms of phytoplankton, visible in this image of the Chukchi Sea acquired on June 18, 2018, by the Operational Land Imager (OLI) on Landsat 8"}
+
+knitr::include_graphics('issue_1/1marine.jpg')
+
+```
+```{r, echo=FALSE, out.width = "70%", fig.align='center', fig.cap="Satellite remote sensing and the Marine Biological Observation Network. Red squares denote the original demonstration nodes in waters of the Arctic, Central California, Southern California Bight, and Florida Keys. Green squares indicate nodes added in 2019 in the Northern California Current/Pacific Northwest and the Gulf of Maine. The blue square locates an ongoing partnership site with the Smithsonian Institution. Each node represents a unique coastal environment with variability in biophysical dynamics where in situ observations complement remote sensing. The figure highlights biological and physical variables that are all available with current remote sensing, including sea ice, sea surface temperature (SST), sea surface height (SSH), salinity (SAL), and chlorophyll a (Chl-a), along with chromophoric dissolved organic matter (CDOM) from ocean color (see section on Remote Sensing and Biodiversity: Challenges and Current Capacity)"}
+
+
+knitr::include_graphics('issue_1/1uses.jpg')
+
+```
+
+I noticed that different sensors detect longer/shorter waves, together with the fact that classification of bands are not consistent from sensor to sensor (Landsat vs Sentinel). This is something that I initially struggled to comprehend before computing Satellite information for this weeks seminar.
+
+### New Orleans
+
+Lets get Jazzy! Following from the lecture material and theory, it was time to put the wheels in motion. 
+In my mind while traversing through the seminar it seemed as though Landsat and Sentinel were in a battle of attrition, Sentinel would say “well I have SNAP specially built for me” and Landsat would retort “well I have been here longer” . 
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('issue_1/1senlan.jpg')
+
+```
+Below are some listing points on both Landsat & Sentinel
+-					-
+-					-
+-					-
+-					-
+
+In the practical I was able to pull Landsat and Sentinel information of New Orleans. I then selected points of interest of Urban, Water & Green to witness in R if I could compute the differences/ This will need to be adjusted by resampling/masking to the same resolution. 
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('issue_1/snap.png')
+
+```
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('issue_1/cap.png')
+
+```
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('issue_1/1spectral.png')
+
+```
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('issue_1/1spectralchart.png')
+
+```
+
+
+### Spectral signatures
+Toying with the bands shows you different information. Bands 3, 4 & 8 show false colour composite, showing soil and land resources. In my case, I stuck to bands 2, 3 & 4, a true colour image. Although as seen in the Sentinel vs Landsat war above, the bands are not necessarily the same classified as well as the resolution.
+
+
+## Reflection 
+What I recognised early on in both lecture and seminar is the key to be able to analyse an area correctively is that there is a constant interative necessity to check work and validate if the information you are using is correct. As well as this, in the section above I purposely omitted some information that skewed my results of the New Orleans analysis. The R analysis plots only show landsat data, it shows the expected levels plotted for green urban and water, cross-validated with other analyses I have seen (). Though with sentinel data an issue arose that I was unable to solve (Shown below). I then traced my steps backwards and loaded my sentinel and Landsat data into QGIS, and it although I thought I altered the resolution to the same for Landsat and sentinel, it appears that this isn’t the case (and also the angle of my Landsat data is 45 degrees than the sentinel. As such, I am thinking that the vector location coordinates that I used in my R studio analysis may have altered these.  I subject my error in results in the fact that I am not the best person to keep handle of my reference points in the work that I do so traceback is difficult. Throughout this course I have been learning that recording what you do step-by-step is vital with any project that handles large quantities of data. I have found that SNAP may be akin to diving at 50 ft podium without mastering the how to dive at all. In fact, this is even highlighted to me in the article by … so I am not alone! Still however, the insights the software gives is invaluable and necessary analysis as noted by … but I do wonder of the barriers to entry for such a software and how you would even come about it.  
+
+
+
