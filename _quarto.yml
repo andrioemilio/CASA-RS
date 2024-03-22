@@ -23,7 +23,7 @@ book:
   repo-actions: [issue]
   chapters:
     - index.qmd
-    - intro.qmd
+    - issue1.qmd
     - issue2.qmd
     - issue4.qmd
     - summary.qmd
