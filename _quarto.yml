@@ -25,6 +25,7 @@ book:
     - index.qmd
     - intro.qmd
     - issue2.qmd
+    - issue4.qmd
     - summary.qmd
     - references.qmd
 

@@ -98,5 +98,25 @@
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Issue 2 - A sensor for Teddy</span>"
     ]
+  },
+  {
+    "objectID": "issue4.html#summary",
+    "href": "issue4.html#summary",
+    "title": "\n3  Issue 3 Deep in the Andies\n",
+    "section": "\n3.1 Summary",
+    "text": "3.1 Summary",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Issue 3 Deep in the Andies</span>"
+    ]
+  },
+  {
+    "objectID": "issue4.html#application",
+    "href": "issue4.html#application",
+    "title": "\n3  Issue 3 Deep in the Andies\n",
+    "section": "\n3.2 Application",
+    "text": "3.2 Application\n\n3.2.1 Andean Mounatins\nAfter inputting the coordinates of the crash site, I sought to find more information about the terrain using Landsat imagery.\n\n\n\n\n\n\n\n\nFirst of all, to view the terrains of what the survivors were faced with in whatever direction they would go, I will merge two landsat raster images. This will provide me with a clear north, south, east and west of the location that the plane crashed.\n\n\n\n\n\n\n\n\nFor this I had used Landsat level 2, which would include the surface reflectance and temperature. Looking at the two images from the usgs, I have one landsat 8 and one landsat 9, the temporal differences between the images are shown below. As you can see the images looks different to each other, this shows that time and cloud cover will influenced my analysis if this is not accounted for. As expected, the vegetation in the area of the crash site will be very very sparse.\n\n\n\n\n\n\n\n\nInstead, I attempted to utilise NDGI, the glacier index, this did not show me what I was expected, I used the code below to calculate this for Landsat 8.\n\n\n\n\n\n\n\n\ntexture of the ground would be important to view the challenge of traversing through the Andean mountains. By looking at the GLCM we understand how the area is characterised.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBy changing the original image data into principle components, PCA helps make it easier to see the differences between types of land or geological features, for use of recognition and categorisation. This approach is especially helpful for making sense of complicated places like mountains such as the Andes.\n\n3.2.2 Cases",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Issue 3 Deep in the Andies</span>"
+    ]
   }
 ]
