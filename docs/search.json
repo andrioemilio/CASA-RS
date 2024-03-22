@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "So you want to know about Remote Sensing Andrio?",
     "section": "",
-    "text": "hello\nQuarto",
+    "text": "hello",
     "crumbs": [
       "hello"
     ]
@@ -57,6 +57,46 @@
     "text": "1.3 Reflection\nWhat I recognised early on in both lecture and seminar is the key to be able to analyse an area correctively is that there is a constant interative necessity to check work and validate if the information you are using is correct. As well as this, in the section above I purposely omitted some information that skewed my results of the New Orleans analysis. The R analysis plots only show landsat data, it shows the expected levels plotted for green urban and water, cross-validated with other analyses I have seen (). Though with sentinel data an issue arose that I was unable to solve (Shown below). I then traced my steps backwards and loaded my sentinel and Landsat data into QGIS, and it although I thought I altered the resolution to the same for Landsat and sentinel, it appears that this isn’t the case (and also the angle of my Landsat data is 45 degrees than the sentinel. As such, I am thinking that the vector location coordinates that I used in my R studio analysis may have altered these. I subject my error in results in the fact that I am not the best person to keep handle of my reference points in the work that I do so traceback is difficult. Throughout this course I have been learning that recording what you do step-by-step is vital with any project that handles large quantities of data. I have found that SNAP may be akin to diving at 50 ft podium without mastering the how to dive at all. In fact, this is even highlighted to me in the article by … so I am not alone! Still however, the insights the software gives is invaluable and necessary analysis as noted by … but I do wonder of the barriers to entry for such a software and how you would even come about it.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Issue 1 - The journey awaits</span>"
+    ]
+  },
+  {
+    "objectID": "issue_2.html",
+    "href": "issue_2.html",
+    "title": "So you want to know about Remote Sensing Andrio?",
+    "section": "",
+    "text": "{css echo=FALSE} p.caption {   text-align: left;    color: gray;    font-style: italic;  }\n#Issue 2 - A sensor for Teddy\nhello",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>issue_2.html</span>"
+    ]
+  },
+  {
+    "objectID": "issue2.html",
+    "href": "issue2.html",
+    "title": "2  Issue 2 - A sensor for Teddy",
+    "section": "",
+    "text": "{css echo = FALSE} p.caption {   text-align: left;    color: gray;    font-style: italic;  }\nhello",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Issue 2 - A sensor for Teddy</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "\n3  Summary\n",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "issue2.html#reflection",
+    "href": "issue2.html#reflection",
+    "title": "\n2  Issue 2 - A sensor for Teddy\n",
+    "section": "\n2.1 Reflection",
+    "text": "2.1 Reflection\nI tend to struggle with autonomy in picking topics, so I usually go with what I know. This week I found quite entertaining to associate what I know outside of CASA to my academic life. I did however have multiple issues within my github set-up, but this is all life training out of my restlessness and to keep track ad focus with committing and push. I infact had to redo the presentation because I saved over an earlier version of the file (and didnt commit beforehad).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Issue 2 - A sensor for Teddy</span>"
     ]
   }
 ]

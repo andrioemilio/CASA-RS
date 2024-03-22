@@ -1,0 +1,18 @@
+<div style="text align: justify">
+
+
+
+
+
+# Issue 2 - A sensor for Teddy
+
+Since the start of the year I have had a mild obsession with U.S politics, this is worrying as I do not know why I find it so fascinating. My favourite U.S president has got to be Teddy Roosevelt. Teddy was a cool guy and always up to something, he left politics but then returned with his own party (the bull-moose party) because he was not best pleased with the leader that followed (he would use stronger words than this) - and nearly won! He's also the reason why we call bear plushes teddy bears. One of his biggest passions in politics however was the natural beauty of the environment and how to conserve this; in fact, he was one of the starters of the national parks. So for this weeks diary entry I wanted to find a sensor in which data can involve cases for national parks.
+
+
+
+```{r xaringan_embed, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "https://andrioemilio.github.io/PresentationW2/#1", ratio = "4:3")
+```
+
+## Reflection
+I tend to struggle with autonomy in picking topics, so I usually go with what I know. This week I found quite entertaining to associate what I know outside of CASA to my academic life. I did however have multiple issues within my github set-up, but this is all life training out of my restlessness and to keep track ad focus with committing and push. I infact had to redo the presentation because I saved over an earlier version of the file (and didnt commit beforehad).

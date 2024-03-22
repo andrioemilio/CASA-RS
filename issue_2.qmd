@@ -1,0 +1,16 @@
+<div style="text-align: justify">
+
+```{css echo=FALSE}
+p.caption {
+  text-align: left; 
+  color: gray; 
+  font-style: italic; 
+}
+```
+
+
+
+#Issue 2 - A sensor for Teddy
+
+
+hello
