@@ -85,7 +85,7 @@ knitr::include_graphics('Issue_3/contrast.png')
 
 ```
 Second is homogeniety.
-```{r, echo=FALSE,  fig.align='center'}
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
 
 knitr::include_graphics('issue_3/homogeniety.png')
 
@@ -101,7 +101,7 @@ Still, I found this weeks entry the most interesting by far, the possibilities w
 
 
 
-```{r, echo=FALSE, out.width = "100px",  fig.align='center'}
+```{r, echo=FALSE, out.width = "400px",  fig.align='center'}
 
 knitr::include_graphics('9.png')
 
