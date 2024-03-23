@@ -6,7 +6,7 @@ This week work seemed a tad daunting for me, and whenever I feel overwhelmed I l
 
 # Not a mastermind yet
 
-{{< video w6.mov width="450" height="375">}}
+{{< video w6.mp4 width="450" height="375">}}
 
 ## Application
 
