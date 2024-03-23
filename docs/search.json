@@ -102,21 +102,21 @@
   {
     "objectID": "issue4.html#summary",
     "href": "issue4.html#summary",
-    "title": "Issue 3 - Deep in the Andies",
+    "title": "Issue 3 - Deep in the Andees",
     "section": "Summary",
     "text": "Summary\nTo summarise enhancement and correction I made a very brief mind map (just a bit bigger than my dog)",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Issue 3 - Deep in the Andies</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Issue 3 - Deep in the Andees</span>"
     ]
   },
   {
     "objectID": "issue4.html#application",
     "href": "issue4.html#application",
-    "title": "Issue 3 - Deep in the Andies",
+    "title": "Issue 3 - Deep in the Andees",
     "section": "Application",
     "text": "Application\nBefore this, I would like to discuss two cases in which enhancement were made and assess the effectiveness between them.\n\nApplication in Mountainous Environments\n\nFirst is a paper discussing the use of remote sensing in monitoring land use and land cover as well as climate changes in mountainous ecosystems (Jombo, et al 2023). They do this by ratios with NDVI and NDSI (snow index) as well as using the quickbird sensor. What I found from this is that they attached a plethora of enhancements with many datasets from different sensors (see table below). This seems quite convoluted to me but monitoring cases such as climate change require robust processes with strong methodologies. My initial suggestion when reading the introduction would be to perform PCA and then classify areas that are of the most concern to detail into reasons why patterns could be detected.\n\n\n\n\n\n\n\n\n\nA Workshop Organized by EURAC in the Core of the Alps\n\nSecondly a workship that discusses the difficulties of applying remote sensing techniques to mountainous environments (Zebisch et a, 2007). I struggle with my understanding of this as seen above, there are plentyful of datasets and enhancements. It mentions that it may be time consuming and unreproducable, but software such as GEE shortens down this process greatly. I do agree with the proposed methodologies and unaccounted risks being an issue to solve. Though, this could still be applied based upon previous methodologies in analysis such as air quality, land use & climate change. A lasting note to this is that the paper was published in 2007, before google earth engine really shot in the sky. GEE has greatly improved the ease of creating reproducible spatial metrics, the chart below shows the impact of remote sensing to recent times.\n\n\n\n\n\n\n\n\nAndean Mounatins\nAfter inputting the coordinates of the crash site, I sought to find more information about the terrain using Landsat imagery.\n\n\n\n\n\n\n\n\nFirst of all, to view the terrains of what the survivors were faced with in whatever direction they would go, I merged two landsat raster images. This provides me with an image containing a clear north, south, east and west of the location that the plane crashed. For this I had used Landsat level 2, which would include the surface reflectance and temperature. Looking at the two images from USGS, I have one landsat 8 and one landsat 9, the temporal differences between the images are shown below. As you can see the images looks different to each other, this shows that time and cloud cover will influenced my analysis if this is not accounted for.\n\n\n\n\n\n\n\n\nAs expected, the vegetation in the area of the crash site will be very very sparse.\n\n\n\n\n\n\n\n\nInstead, I attempted to utilise NDGI, the glacier index to identify and monitor glacial and ice regions. This did not show me what I was expecting.\n\n\n\n\n\n\n\n\nTexture of the ground would be important to view the challenge of traversing through the Andean mountains. By looking at the GLCM we understand how the area is characterised. I used the contrast to show the differences in the mountain region where in the crash happened. This shows how diverse the regions mountains are in height and stature. I dont know how that many survived.\n\n\n\n\n\n\n\n\nSecond is homogeniety.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Issue 3 - Deep in the Andies</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Issue 3 - Deep in the Andees</span>"
     ]
   },
   {
@@ -222,11 +222,11 @@
   {
     "objectID": "issue4.html#reflection",
     "href": "issue4.html#reflection",
-    "title": "Issue 3 - Deep in the Andies",
+    "title": "Issue 3 - Deep in the Andees",
     "section": "Reflection",
     "text": "Reflection\nI found this weeks diary entry very computationally difficult, so agian I attempted to entertain myself with this topic. It did however come with many challenges. The ideas I had seemed to overrun my computer or the output be not as expected for a mountainous snowy region. I had an idea to use the rayshader library to create a video such as the one shown below, this again was too computational for my computer but shows the vast terrain of the mountains.\n\n\n\n\n\n\n\n\nStill, I found this weeks entry the most interesting by far, the possibilities within enhancements and corrections for seem endless. I am very keen to use google earth engine now to speed up the processes of achievieng results such as the one above!",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Issue 3 - Deep in the Andies</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Issue 3 - Deep in the Andees</span>"
     ]
   },
   {
