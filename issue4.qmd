@@ -100,7 +100,7 @@ I found this weeks diary entry very computationally difficult, so agian I attemp
 
 ```{r, echo=FALSE, out.width = "70%", fig.align='center'}
 
-knitr::include_graphics('issue_3/zionpark.gif')
+knitr::include_graphics('issue_3/zionpar.gif')
 
 ```
 
