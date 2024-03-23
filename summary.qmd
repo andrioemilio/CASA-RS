@@ -1,9 +1,4 @@
 \<div style="text align: justify"\>
 
-```{r, echo=FALSE, out.width = "70%", fig.align='center'}
-
-knitr::include_graphics('issue_3/zionpar.gif')
-
+```{}
 ```
-
-\`
