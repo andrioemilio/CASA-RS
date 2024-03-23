@@ -3,7 +3,7 @@ project:
   output-dir: docs 
   
 book:
-  title: "So you want to know about Remote Sensing Andrio?"
+  title: "Remote Sensing"
   author: "Andrio emilio"
   favicon: "images/casa.png"
   navbar:
