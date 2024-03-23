@@ -110,7 +110,7 @@ The Global Health Group San Francisco used Earth Engine for malaria risk mapping
 I found GEE a joy to utilise but again seemed like a hurdle to handle to get control of. It reminded me of when I started my career in analysis and got handed a huge on powerBI and was asked to produce something by the end of the week. I also had issues in clipping. Basically, my initial clip was just the area in where my grandfather was born so when I applied NDVI to it the resolution was not high enough to provide any difference.
 
 
-```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+```{r, echo=FALSE,  fig.align='center'}
 
 knitr::include_graphics('issue6/clipping.png')
 
