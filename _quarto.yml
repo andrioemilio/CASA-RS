@@ -26,6 +26,11 @@ book:
     - issue1.qmd
     - issue2.qmd
     - issue4.qmd
+    - issue5.qmd
+    - issue6.qmd
+    - issue7.qmd
+    - notyet.qmd
+    - issue8.qmd
     - summary.qmd
     - references.qmd
 
@@ -42,6 +47,7 @@ format:
         light: [cerulean, flatly]
         dark: [cerulean, darkly]
     code-link: true
+    number-sections: false
   pdf:
     # documentclass: scrreprt
     documentclass: scrbook

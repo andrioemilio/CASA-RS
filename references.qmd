@@ -3,4 +3,65 @@
 # References {.unnumbered}
 
 ::: {#refs}
+Apologies for the poor formatting!
 :::
+
+https://isprs-archives.copernicus.org/articles/XLII-4-W16/489/2019/
+
+https://www.mdpi.com/2072-4292/15/2/308
+
+https://www.cnet.com/tech/mobile/lidar-is-one-of-the-iphone-ipad-coolest-tricks-its-only-getting-better/
+
+https://science.nasa.gov/resource/churning-in-the-chukchi-sea/
+
+https://www.researchgate.net/publication/356094764_Satellite_Remote_Sensing_and_the_Marine_Biodiversity_Observation_Network_Current_Science_and_Future_Steps
+
+https://www.mdpi.com/1424-8220/21/23/7849
+
+https://landsat.gsfc.nasa.gov/thematic-mapper/
+
+https://landsat.gsfc.nasa.gov/satellites/landsat-5/
+
+https://landsat.gsfc.nasa.gov/multimedia/graphics-library/landsat-4-5-graphics/
+
+https://landsat.visibleearth.nasa.gov/view.php?id=88190
+
+https://earthobservatory.nasa.gov/images/90528/a-stroke-of-luck
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9960268/
+
+https://www.jstor.org/stable/25164137?seq=1
+
+https://www.mdpi.com/2072-4292/13/18/3778
+
+https://ciup.up.edu.pe/analisis/la-desertificacion-y-sequia-una-consecuencia-directa-en-nuestras-vidas/
+
+https://www.frontiersin.org/articles/10.3389/frsen.2021.619818/full
+
+https://earthengine.google.com/case_studies/
+
+https://dlab.berkeley.edu/news/mapping-time-series-satellite-images-google-earth-engine-api-1
+
+https://www.researchgate.net/publication/320946183_A_Case_Study_on_Comparison_of_the_Classifiers_provided_by_Google_Earth_Engine_for_Land_Cover_Identification
+
+M. C. Hansen *et al* High-Resolution Global Maps of 21st-Century Forest Cover Change.*Science***342**,850-853(2013).DOI:[10.1126/science.1244693](https://doi.org/10.1126/science.1244693)
+
+https://www.tandfonline.com/doi/full/10.1080/20964471.2019.1690404
+
+https://www.mdpi.com/2072-4292/10/10/1573
+
+https://www.mdpi.com/2076-3298/8/10/105
+
+https://www.london.gov.uk/programmes-strategies/planning/london-plan/past-versions-and-alterations-london-plan/london-plan-2016/london-plan-chapter-five-londons-response/poli-8
+
+https://www.mdpi.com/journal/remotesensing/special_issues/land_temperature#:\~:text=It%20is%20an%20important%20indicator,epidemiological%20studies%2C%20and%20so%20on.
+
+https://www.sciencedirect.com/science/article/pii/S0034425723001074
+
+https://www.researchgate.net/publication/355171565_Study_of_the_Urban_Heat_Island_UHI_Using_Remote_Sensing_DataTechniques_A_Systematic_Review
+
+https://www.researchgate.net/publication/355171565_Study_of_the_Urban_Heat_Island_UHI_Using_Remote_Sensing_DataTechniques_A_Systematic_Review
+
+https://www.sciencedirect.com/science/article/pii/S0924271609000884
+
+https://iopscience.iop.org/article/10.1088/1755-1315/620/1/012010

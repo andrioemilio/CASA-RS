@@ -1,12 +1,51 @@
 <div style="text align: justify">
 
-# Issue 3 Deep in the Andies
+# Issue 3 - Deep in the Andies
 
-This week I had watched society of the snow of the Andean plane crash in 1972 where  a rugby team left stranded in the Andes for 72 days. Somehow, 16 survivors made it out, but not without controversy (how did they stay alive exactly hmmm).  Still this was fresh on my mind when walking into the tutorial on Thursday. So what better way to explore corrections than to applying upon the trail that two of the survivors had to take to finally be rescued. 
+This week I had watched **society of the snow** a film of the Andean plane crash in 1972, wherein a rugby team were left stranded in the Andes for 72 days. Somehow, 16 survivors made it out, but not without controversy (how did they stay alive exactly hmmm). This was fresh on my mind when walking into the tutorial on Thursday. So what better way to explore corrections than to attempt applying them on the location where the site crashed. 
  
 ##  Summary 
 
+To summarise enhancement and correction I made a very brief mind map (just a bit bigger than my dog)
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('Issue_3/IMG_6831.jpeg')
+
+```
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('Issue_3/IMG_6832.jpeg')
+
+```
+
+
 ## Application 
+
+Before this, I would like to discuss two cases in which enhancement were made and assess the effectiveness between them.
+
+* Application in Mountainous Environments 
+
+First is a paper discussing the use of remote sensing in monitoring land use and land cover as well as climate changes in mountainous ecosystems (Jombo, et al 2023). They do this by ratios with NDVI and NDSI (snow index) as well as using the quickbird sensor. What I found from this is that they attached a plethora of enhancements with many datasets from different sensors (see table below). This seems quite convoluted to me but monitoring cases such as climate change require robust processes with strong methodologies. My initial suggestion when reading the introduction would be to perform PCA and then classify areas that are of the most concern to detail into reasons why  patterns could be detected. 
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('Issue_3/sensoruse.png')
+
+```
+
+* A Workshop Organized by EURAC in the Core of the Alps
+
+Secondly a workship that discusses the difficulties of applying remote sensing techniques to mountainous environments (Zebisch et a, 2007). I struggle with my understanding of this as seen above, there are plentyful of datasets and enhancements. It mentions that it may be time consuming and unreproducable, but software such as GEE shortens down this process greatly. I do agree with the proposed methodologies and unaccounted risks being an issue to solve. Though, this could still be applied based upon previous methodologies in analysis such as air quality, land use & climate change. A lasting note to this is that the paper was published in 2007, before google earth engine really shot in the sky. GEE has greatly improved the ease of creating reproducible spatial metrics, the chart below shows the impact of remote sensing to recent times. 
+
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('Issue_3/citation.jpeg')
+
+```
+
 
 ### Andean Mounatins
 After inputting the coordinates of the crash site, I sought to find more information about the terrain using Landsat imagery. 
@@ -16,21 +55,22 @@ After inputting the coordinates of the crash site, I sought to find more informa
 knitr::include_graphics('Issue_3/Andes.png')
 
 ```
-First of all, to view the terrains of what the survivors were faced with in whatever direction they would go, I will merge two landsat raster images. This will provide me with a clear north, south, east and west of the location that the plane crashed. 
+First of all, to view the terrains of what the survivors were faced with in whatever direction they would go, I merged two landsat raster images. This provides me with an image containing a clear north, south, east and west of the location that the plane crashed. 
+For this I had used Landsat level 2, which would include the surface reflectance and temperature. 
+Looking at the two images from USGS, I have one landsat 8 and one landsat 9, the temporal differences between the images are shown below. As you can see the images looks different to each other, this shows that time and cloud cover will influenced my analysis if this is not accounted for.
 ```{r, echo=FALSE, out.width = "70%", fig.align='center'}
 
 knitr::include_graphics('Issue_3/connecting.png')
 
 ```
-For this I had used Landsat level 2, which would include the surface reflectance and temperature. 
-Looking at the two images from the usgs, I have one landsat 8 and one landsat 9, the temporal differences between the images are shown below. As you can see the images looks different to each other, this shows that time and cloud cover will influenced my analysis if this is not accounted for. As expected, the vegetation in the area of the crash site will be very very sparse. 
+ As expected, the vegetation in the area of the crash site will be very very sparse. 
 ```{r, echo=FALSE, out.width = "70%", fig.align='center'}
 
 knitr::include_graphics('Issue_3/NDVI.png')
 
 ```
 
-Instead, I attempted to utilise NDGI, the glacier index, this did not show me what I was expected, I used the code below to calculate this for Landsat 8. 
+Instead, I attempted to utilise NDGI, the glacier index to identify and monitor glacial and ice regions. This did not show me what I was expecting.  
 
 ```{r, echo=FALSE, out.width = "70%", fig.align='center'}
 
@@ -38,29 +78,25 @@ knitr::include_graphics('Issue_3/NDGI.png')
 
 ```
 
-texture of the ground would be important to view the challenge of traversing through the Andean mountains. By looking at the GLCM we understand how the area is characterised.
+Texture of the ground would be important to view the challenge of traversing through the Andean mountains. By looking at the GLCM we understand how the area is characterised. I used the contrast to show the differences in the mountain region where in the crash happened. This shows how diverse the regions mountains are in height and stature. I dont know how that many survived. 
 ```{r, echo=FALSE, out.width = "70%", fig.align='center'}
 
 knitr::include_graphics('Issue_3/contrast.png')
 
 ```
-
+Second is homogeniety.
 ```{r, echo=FALSE, out.width = "70%", fig.align='center'}
 
 knitr::include_graphics('issue_3/homogeniety.png')
 
 ```
  
-By changing the original image data into principle components, PCA helps make it easier to see the differences between types of land or geological features, for use of recognition and categorisation. This approach is especially  helpful for making sense of complicated places like mountains such as the Andes.
 
 
 
+## Reflection 
 
-
-### Cases 
-
-
-
+I found this weeks diary entry very computationally difficult, so agian I attempted to entertain myself with this topic. It did however come with many challenges. The ideas I had seemed to overrun my computer or the output be not as expected for a mountainous snowy region. I had an idea to use the rayshader library to create a video such as the one shown below, this again was too computational for my computer but shows the vast terrain of the mountains.
 
 ```{r, echo=FALSE, out.width = "70%", fig.align='center'}
 
@@ -68,5 +104,5 @@ knitr::include_graphics('issue_3/zionpark.gif')
 
 ```
 
-
+Still, I found this weeks entry the most interesting by far, the possibilities within enhancements and corrections for seem endless. I am very keen to use google earth engine now to speed up the processes of achievieng results such as the one above! 
 

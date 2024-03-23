@@ -1,0 +1,89 @@
+<div style="text align: justify">
+  
+# Issue 7 - Takeaways from OBIC
+
+This week I have decided to put all of my focus on the unsupervised machine learning method Object Based Image Classification. As it is quite complex I didnt want to take any other time explaining other methods and get this approach wrong. I will be getting a takeaway as soon as this entry is over as a reward. 
+
+## OBIC
+
+The way I understood OBIA is that it thinks in objects and not pixels. The most important thing I consider to understand it is that it is a two step process. 
+
+1.	Segmentation 
+
+2.	Classification 
+
+### Segmentation 
+ It segments small, similar neighbouring pixels into a vector. Segmentation will automatically do this and display it clearly. Its almost as if what your eyes would see looking out of a helicopter (large green space, building look merged into one). It segments them together in a number of ways (you can even give the model rules on how to). 
+ 
+In a scary (or exciting) turn events, i'd say OBIA thinks like a human more so than a computer. A computer would not be able to recognise a lake from a river, but your eyes can!  
+This is when image classification plays gets involved usually; for a computer to finally distinguish a lake from a river. Though traditional cases will tend to assign a land cover class per pixel whereas OBIA does not. 
+
+Segmentation helps you recognise groups forming from pixels. As sensor resolutions are getting stronger this is only growing in importance. Two of the most common segmentation techniques are k-means and SNIC.  
+
+*	 K-means 
+Groups data samples into K clusters, eeach sample belongs to the cluster with the nearest mean. The mean shift algorithm is a non-parametric algorithm that clusters data interactively by finding the densest regions (clusters) in a feature space. 
+
+*	Simple Non-Iterative Clustering (SNIC), a novel approach
+It assigns pixels to points through distance color and co-ordinates, representing normalised spatial and color distances.
+
+*I still dont particulary understand the methodologies behind these, and for transperacy these definitions are nearly verbatim from the source.*
+
+### Classification 
+
+After that it is then time to classify. 
+With segmentation, a sample can be taken with features to train the classification model and then later test against it. 
+An example of a classification technique assigning landcover classes with CART.
+
+Below shows the process of OBIA, confusing but step 2 &  3 are the real steps to take into consideration. 
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('picture16.png')
+
+```
+
+### Effectiveness
+
+As data becomes more rich and detailed, tools like OBIA are imperative to help automate and solve issues in a contemporary way. It offers increased accuracy for classification purposes and speeds up the process for max production. It also utilises human input in the way that it can be trained to understand situations such as when a group of trees, grass and water is found near dense house it is likely to be a city park, as well as maximinising use of sensors with higher resolution for analysis. 
+However, Some issues that may arise from this is that OBIA creation seems to be a lengthy process, to understand and many things may go wrong with having the wrong segmentation or classifier, as well as this, fine tuning the model to particular interest to the spatial area may be necessary, coupled with the high computational cost it takes. Another potential problem is that in some cases such as mapping informal settlements the OBIA has not been successful as the material in the informal settlements is the same as 
+
+## Applications
+
+An application of OBIA can be seen with data from the National Agriculture Imagery program (NAIP)
+
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('picture17.png')
+
+```
+
+The segment used the SNIC algorithm, dividing into similar neighbouring pixels areas.
+
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('picture18.png')
+
+```
+After this samples were taken to train the data in 5 classes of Urban, Watrer, Agriculture, Forestry and Grass. The samples offer the characteristics to be chosen and personalised for feature selection to then classify data. Some examples of features that can be taken are Spectral bands NDVI as well as GLCM features such as contrast and homogeneity. Finally, classification can be utilised to predict the land us and land cover of the area. For this example random forest was chosen. 
+
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('picture19.png')
+
+```
+
+### Effectiveness
+
+Although OBIA has been used and shown significant accuracies of PBIA in wetland areas, it is not completely triumphant. In fact when applying both methods to arctic wetlands no significant accuracies were detected and results had vague differences. 
+Still with the use of GEE and incorporating novel EO features  unexplored results were found that had shown information of wetland coverages and types at a Pan-Arctic scale at a greater scale. Especially useful in land surface and climate modelling. 
+
+
+## Reflections 
+
+This is part of remote sensing that it took a long time to get my head around. The process seems to be convoluted and finding practical work in GEE seemed difficult. Although I can understand the use of this method as there is a lot of data at hand and machine learning can be used for automated outputs. 
+
+When I started this module I found interest in the fact that remote sensing is used to explore the earth that is unaccessible to humans, with methods like this it is quite amazing to judge the human effects to areas (such as contribution to climate change) with OBIC that are now impacting lands in Antartica. 
+
+
