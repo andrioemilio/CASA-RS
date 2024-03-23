@@ -100,11 +100,10 @@ I found this weeks diary entry very computationally difficult, so agian I attemp
 Still, I found this weeks entry the most interesting by far, the possibilities within enhancements and corrections for seem endless. I am very keen to use google earth engine now to speed up the processes of achieving results such as the one above! 
 
 
-{{< video https://www.tylermw.com/wp-content/uploads/2020/04/zionpark.mp4 aspect-ratio="4x3">}}
 
-```{r, echo=FALSE,  fig.align='center'}
+```{r, echo=FALSE, out.width = "100px",  fig.align='center'}
 
-knitr::include_graphics('https://www.tylermw.com/wp-content/uploads/2020/04/map3d-1-e1588011586919.png')
+knitr::include_graphics('9.png')
 
 ```
 

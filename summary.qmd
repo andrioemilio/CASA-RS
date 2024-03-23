@@ -1,4 +1,3 @@
-\<div style="text align: justify"\>
+# Texture video
 
-```{}
-```
+{{< video https://www.tylermw.com/wp-content/uploads/2020/04/zionpark.mp4 >}}
