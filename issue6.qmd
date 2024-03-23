@@ -1,0 +1,121 @@
+<div style="text align: justify">
+
+# Issue 5 - Home truths
+
+After being hot on the heels of all things Latin America, I wanted to explore an exotic island full of amazing weather & explore a new, culturally different country than England. So I was left very bewildered when I spent this weekend in Belfast. Still, it's the city my grandfather was from until he moved to Doncaster of all places and became a miner (he actually led some riots in the 80’s, Paddy was a cool man). 
+For this weeks entry I’ll exploring Belfast in google earth engine! It might be interesting to see if there are any differences between east and west Belfast in Satellite data, as it is very apparent in the city still to this day. 
+ 
+Below are images I took in west and east Belfast showing the complete culture differences within the same city. 
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('Issue6/West.jpeg')
+
+```
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('Issue6/East.jpeg')
+
+```
+
+Google earth engine is a one stop shop for analysing remote sensing data (or two stop if you need to clip a shapefile like I have). It has catalogues of satellite imagery and datasets readily available, much like previous work I have attempted in R but with the capacity to handle this much quicker. It also requires javascript  input unlike R studio (but not much at all). 
+
+
+## Application 
+
+### Belfast 
+
+I first of all used the coordinates of the street that my grandfather was born and found a GADM shapefile to correspond with clipping the area of interest of Belfast. 
+
+
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('Issue6/GEE.png')
+
+```
+
+After adjusting cloud cover and clipping I then sought to do a few tidbits of analysis. 
+
+
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('Issue6/clipping.png')
+
+```
+
+
+
+I have also performed NDGI and it shows nothing much of what you would expect; less vegetation near the centre more on the outskirts. 
+
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('Issue6/NDVI.png')
+
+```
+The GLCM of Belfast I found particularly interesting to see, as the contrast between neighbouring pixels as a measure of the texture shows that East and West Belfast have significant spikes in change, signifying that there is a dense urban environment in the two and that North and South isn’t as dense. 
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('Issue6/GLCM.png')
+
+```
+
+
+### More applications 
+
+I've just discovered the tip of the iceburg (or Andean mountain) with application in google earth engine. 
+
+For this section i'll briefly discuss some case studies from the GEE website. 
+
+
+* Global Forest Cover Change - Land study
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('issue6/map_of_life.jpg')
+
+```
+Earth Engine was used  to examine global tree cover, resulting in a comprehensive study Covering nearly all of Earth's land except Antarctica and some Arctic islands.
+
+* The Map of Life - The impact of environmental changes
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('issue6/case_study_tiger.png')
+
+```
+
+The Map of Life project has created an interactive map that enables conservationists to examine habitat ranges and evaluate the conservation status of individual species. 
+
+
+
+* Malaria Risk Mapping - Potential outbreaks predictions
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('issue6/malaria_risk.jpg')
+
+```
+
+The Global Health Group San Francisco used Earth Engine for malaria risk mapping to forecast outbreaks.
+
+
+
+
+### Reflections
+
+I found GEE a joy to utilise but again seemed like a hurdle to handle to get control of. It reminded me of when I started my career in analysis and got handed a huge on powerBI and was asked to produce something by the end of the week. I also had issues in clipping. Basically, my initial clip was just the area in where my grandfather was born so when I applied NDVI to it the resolution was not high enough to provide any difference.
+
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('issue6/clipping.png')
+
+```
+
+I also found it difficult to think of a way to discuss the application, this is why it was based upon the cases provided by them to show what the engine is capable of. 
+
+Other than that I can see myself toying around with google earth engine from even in my day to day life. I dont think its a talent I can whip out at parties however. 

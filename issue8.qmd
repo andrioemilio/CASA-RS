@@ -1,0 +1,71 @@
+<div style="text align: justify">
+
+# Issue 8 - Too many chefs in the kitchen
+
+
+The final entry, my brain is about to explode. This week I was still wrapping up to get to class but at the same time overheating on the tube the way there. It was like the exact opposite of what happened when I visited Tokyo a couple years back, it was so warm and human that I would relish getting publish transport for the air-con. I’d say my favourite time there however was visiting the cup-noodle museum, I still have a candle and got to make my own noodles! 
+
+
+Todays entry I’d like to explore heat in the Tokyo region and collate it with further global problems
+
+## Urban Heat Island
+
+Why is remote sensing temperature of importance? 
+Temperature is one of the most important aspects in remote sensing, it can be used to monitor plant water stress, heat island effects and land cover change. 
+
+``` {r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('heatTokyo.png')
+
+```
+
+* Urban Heat islands 
+
+Urban Heat islands are the occurrence of higher temperatures in urbanised areas compares rural, it can lead to discomfort higher energy consumption and aggravated pollution. Using thermal sensors therefore allows to recognise the most problematic areas and if policy such as the Mayor of London encourages the design of spaces to avoid excessive heat generation is working effectively. 
+
+
+
+Many sensors are used to explore this phenomenon such as the Thematic Mapper, MODIS, Sea and Land Surface Temperature Radiometer and Prototype HyspIRI Thermal Infrared Radiometer.
+So I’ll be exploring a new sensor today withing GEE which is the MODerate-resolution Imaging Spectroradiometer (MODIS).  MODIS captures data in 36 spectral bands ranging from visible to thermal infrared at varying spatial resolutions (from 250m to 1km). This capability allows MODIS to provide detailed observations of temperature across the Earth's surface.
+
+## Applications 
+
+To prove if urban heat islands exists I therefore used Tokyo as an example because I actually when I went.  It uses Aqua and Terra to visualise temperature.
+Its clear to see, with Tokyo being one of the most densley populates cities in the world that urban heat island exists there. Veering out of the city, the heat reduces. 
+
+``` {r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('heatislandpng.png')
+
+```
+
+Google earth engine can also produce a time series to monitor the temperature, this can be compared yearly to track changes in heat in locations. 
+
+``` {r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('ee-chart.png')
+
+```
+
+## Flood risk 
+
+Similar to the issues of temperature, google earth engine has a plethora of options to utilise and witness the effects of climate change towards flooding. 
+Here I have utilised pre-set code that shows flood risk in a polygon that I drew of London at a random date because its always wet here. 
+
+
+``` {r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics('flooded.png')
+
+```
+I'd say the effects of floods are quite comparable to the effects of temperature, an Idea I had is producing a layer of both urban heat map and flood risk for London top see correlationbs. 
+
+
+## Reflection 
+
+This weeks entry was quite frustrastingly sparse. This is due to my idea to transfer the heat map into a flood map failing. I had utilised youtube tutorials but couldnt find a way to clip my ROI. 
+I have however enjoyed seeing the catalogues of data that Google Earth Engine has in regards to heat monitoring and its impacts. It seems to really shine within this aspect of remote sensing data.
+
+
+
+
