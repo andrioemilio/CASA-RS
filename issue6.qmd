@@ -27,7 +27,7 @@ Time to explore the hometown of Paddy Close (my grandfather).
 To do this I loaded in L-8 level 2 collection 2 images from Landsat. 
 I first of all used the coordinates of the street that my grandfather was born and found a GADM shapefile to correspond with clipping the area of interest, Belfast. 
 
-```{r, echo=FALSE, out.width = "300px%", fig.align='center'}
+```{r, echo=FALSE, out.width = "300px", fig.align='center'}
 
 knitr::include_graphics('Issue6/GEE.png')
 
@@ -63,7 +63,7 @@ For this section i'll briefly discuss some case studies from the GEE website.
 
 * Global Forest Cover Change - Land study
 
-```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+```{r, echo=FALSE, out.width = "200px", fig.align='center'}
 
 knitr::include_graphics('issue6/map_of_life.jpg')
 
@@ -72,7 +72,7 @@ Earth Engine was used  to examine global tree cover, resulting in a comprehensiv
 
 * The Map of Life - The impact of environmental changes
 
-```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+```{r, echo=FALSE, out.width = "300px", fig.align='center'}
 
 knitr::include_graphics('issue6/case_study_tiger.png')
 
