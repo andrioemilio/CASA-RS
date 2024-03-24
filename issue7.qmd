@@ -63,7 +63,7 @@ What I noticed within searching GEE cases by specific methods for analysis is th
 
 ```{r, echo=FALSE, out.width = "70%", fig.align='center'}
 
-knitr::include_graphics('issue6/classifiers.jpg')
+knitr::include_graphics('issue6/classifiers.jpeg')
 
 ```
 
