@@ -62,8 +62,8 @@ knitr::include_graphics('issue7/3.png')
 What I noticed within searching GEE cases by specific methods for analysis is the widespread use of random forest algorithm. I struggled within this aspect as I head sought information that spoke of the most widespread methods involving SVM & CART too. Nonetheless it showed me that researchers that use GEE must have an underpinning of the knowledge of these classification methods to justify which one is best fit for the analysis that they provide. 
 
 ::: {layout="[[1], [1]]"}
-![use of models in GEE cases ](issue6/classifiers.jpeg)
-
+![use of models in GEE cases ](s.png)
+:::
 
 ## Reflection
 
