@@ -2,66 +2,86 @@
 
 # References {.unnumbered}
 
-::: {#refs}
-Apologies for the poor formatting!
-:::
+Jombo S, Abd Elbasit MAM, Gumbo AD, Nethengwe NS. Remote Sensing Application in Mountainous Environments: A Bibliographic Analysis. Int J Environ Res Public Health. 2023 Feb 17;20(4):3538. doi: 10.3390/ijerph20043538. PMID: 36834251; PMCID: PMC9960268.
 
-https://isprs-archives.copernicus.org/articles/XLII-4-W16/489/2019/
+Schneiderbauer, Stefan, et al. \"Applied Remote Sensing in Mountain Regions: A Workshop Organized by EURAC in the Core of the Alps.\" *Mountain Research and Development*, vol. 27, no. 3, 2007, pp. 286--87. *JSTOR*, http://www.jstor.org/stable/25164137. Accessed 24 Mar. 2024.
 
-https://www.mdpi.com/2072-4292/15/2/308
-
-https://www.cnet.com/tech/mobile/lidar-is-one-of-the-iphone-ipad-coolest-tricks-its-only-getting-better/
-
-https://science.nasa.gov/resource/churning-in-the-chukchi-sea/
-
-https://www.researchgate.net/publication/356094764_Satellite_Remote_Sensing_and_the_Marine_Biodiversity_Observation_Network_Current_Science_and_Future_Steps
-
-https://www.mdpi.com/1424-8220/21/23/7849
-
-https://landsat.gsfc.nasa.gov/thematic-mapper/
-
-https://landsat.gsfc.nasa.gov/satellites/landsat-5/
-
-https://landsat.gsfc.nasa.gov/multimedia/graphics-library/landsat-4-5-graphics/
-
-https://landsat.visibleearth.nasa.gov/view.php?id=88190
-
-https://earthobservatory.nasa.gov/images/90528/a-stroke-of-luck
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9960268/
-
-https://www.jstor.org/stable/25164137?seq=1
-
-https://www.mdpi.com/2072-4292/13/18/3778
-
-https://ciup.up.edu.pe/analisis/la-desertificacion-y-sequia-una-consecuencia-directa-en-nuestras-vidas/
-
-https://www.frontiersin.org/articles/10.3389/frsen.2021.619818/full
-
-https://earthengine.google.com/case_studies/
-
-https://dlab.berkeley.edu/news/mapping-time-series-satellite-images-google-earth-engine-api-1
-
-https://www.researchgate.net/publication/320946183_A_Case_Study_on_Comparison_of_the_Classifiers_provided_by_Google_Earth_Engine_for_Land_Cover_Identification
+Zhao, Q.; Yu, L.; Li, X.; Peng, D.; Zhang, Y.; Gong, P. Progress and Trends in the Application of Google Earth and Google Earth Engine. *Remote Sens.* **2021**, *13*, 3778. https://doi.org/10.3390/rs13183778
 
 M. C. Hansen *et al* High-Resolution Global Maps of 21st-Century Forest Cover Change.*Science***342**,850-853(2013).DOI:[10.1126/science.1244693](https://doi.org/10.1126/science.1244693)
 
-https://www.tandfonline.com/doi/full/10.1080/20964471.2019.1690404
+Dikmen, Mehmet & Celik, Naime. (2017). A Case Study on Comparison of the Classifiers provided by Google Earth Engine for Land Cover Identification.
 
-https://www.mdpi.com/2072-4292/10/10/1573
+Meisam Amani, Brian Brisco, Majid Afshar, S. Mohammad Mirmazloumi, Sahel Mahdavi, Sayyed Mohammad Javad Mirzadeh, Weimin Huang & Jean Granger (2019) A generalized supervised classification scheme to produce provincial wetland inventory maps: an application of Google Earth Engine for big geo data processing, Big Earth Data, 3:4, 378-394, DOI: [10.1080/20964471.2019.1690404](https://doi.org/10.1080/20964471.2019.1690404)
 
-https://www.mdpi.com/2076-3298/8/10/105
+Carvalho-Santos, C.; Monteiro, A.T.; Arenas-Castro, S.; Greifeneder, F.; Marcos, B.; Portela, A.P.; Honrado, J.P. Ecosystem Services in a Protected Mountain Range of Portugal: Satellite-Based Products for State and Trend Analysis. *Remote Sens.* **2018**, *10*, 1573. https://doi.org/10.3390/rs10101573
+
+Almeida, C.R.d.; Teodoro, A.C.; Gonçalves, A. Study of the Urban Heat Island (UHI) Using Remote Sensing Data/Techniques: A Systematic Review. *Environments* **2021**, *8*, 105. https://doi.org/10.3390/environments8100105
 
 https://www.london.gov.uk/programmes-strategies/planning/london-plan/past-versions-and-alterations-london-plan/london-plan-2016/london-plan-chapter-five-londons-response/poli-8
 
-https://www.mdpi.com/journal/remotesensing/special_issues/land_temperature#:\~:text=It%20is%20an%20important%20indicator,epidemiological%20studies%2C%20and%20so%20on.
-
 https://www.sciencedirect.com/science/article/pii/S0034425723001074
 
-https://www.researchgate.net/publication/355171565_Study_of_the_Urban_Heat_Island_UHI_Using_Remote_Sensing_DataTechniques_A_Systematic_Review
+Almeida, Cátia & Gonçalves, Artur & Teodoro, A.. (2021). Study of the Urban Heat Island (UHI) Using Remote Sensing Data/Techniques: A Systematic Review. Environments. 8. 105. 10.3390/environments8100105.
 
-https://www.researchgate.net/publication/355171565_Study_of_the_Urban_Heat_Island_UHI_Using_Remote_Sensing_DataTechniques_A_Systematic_Review
+T. Blaschke, Object based image analysis for remote sensing, ISPRS Journal of Photogrammetry and Remote Sensing, Volume 65, Issue 1, 2010, Pages 2-16, ISSN 0924-2716, https://doi.org/10.1016/j.isprsjprs.2009.06.004.
 
-https://www.sciencedirect.com/science/article/pii/S0924271609000884
+Triantafyllou, A.; Sarigiannidis, P.; Bibi, S. Precision Agriculture: A Remote Sensing Monitoring System Architecture. *Information* **2019**, *10*, 348. https://doi.org/10.3390/info10110348
 
-https://iopscience.iop.org/article/10.1088/1755-1315/620/1/012010
+Esposito, M., Crimaldi, M., Cirillo, V. *et al.* Drone and sensor technology for sustainable weed management: a review. *Chem. Biol. Technol. Agric.* **8**, 18 (2021). https://doi.org/10.1186/s40538-021-00217-8
+
+Azeez, O.S.; Shafri, H.Z.M.; Alias, A.H.; Haron, N.A.B. Integration of Object-Based Image Analysis and Convolutional Neural Network for the Classification of High-Resolution Satellite Image: A Comparative Assessment. *Appl. Sci.* **2022**, *12*, 10890. https://doi.org/10.3390/app122110890
+
+Ravanelli, Roberta & Nascetti, Andrea & Cirigliano, R. & Rico, C. & Monti, Paolo & Crespi, Mattia. (2018). MONITORING URBAN HEAT ISLAND THROUGH GOOGLE EARTH ENGINE: POTENTIALITIES AND DIFFICULTIES IN DIFFERENT CITIES OF THE UNITED STATES. ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences. XLII-3. 1467-1472. 10.5194/isprs-archives-XLII-3-1467-2018.
+
+Tomás Marín Del Valle, Ping Jiang, Comparison of common classification strategies for large-scale vegetation mapping over the Google Earth Engine platform, International Journal of Applied Earth Observation and Geoinformation, Volume 115, 2022, 103092, ISSN 1569-8432, https://doi.org/10.1016/j.jag.2022.103092.
+
+Pedro Pérez-Cutillas, Alberto Pérez-Navarro, Carmelo Conesa-García, Demetrio Antonio Zema, Jesús Pilar Amado-Álvarez, What is going on within google earth engine? A systematic review and meta-analysis, Remote Sensing Applications: Society and Environment, Volume 29, 2023, 100907, ISSN 2352-9385, https://doi.org/10.1016/j.rsase.2022.100907. (https://www.sciencedirect.com/science/article/pii/S2352938522002154)
+
+Mohammad Ganjirad, Hossein Bagheri, Google Earth Engine-based mapping of land use and land cover for weather forecast models using Landsat 8 imagery, Ecological Informatics, Volume 80, 2024, 102498, ISSN 1574-9541, https://doi.org/10.1016/j.ecoinf.2024.102498. (https://www.sciencedirect.com/science/article/pii/S1574954124000402)
+
+Tassi, A.; Vizzari, M. Object-Oriented LULC Classification in Google Earth Engine Combining SNIC, GLCM, and Machine Learning Algorithms. *Remote Sens.* **2020**, *12*, 3776. https://doi.org/10.3390/rs12223776
+
+Zeng, H., Wu, B., Wang, S. *et al.* A Synthesizing Land-cover Classification Method Based on Google Earth Engine: A Case Study in Nzhelele and Levhuvu Catchments, South Africa. *Chin. Geogr. Sci.* **30**, 397--409 (2020). https://doi.org/10.1007/s11769-020-1119-y
+
+M. C. Hansen *et al* High-Resolution Global Maps of 21st-Century Forest Cover Change.*Science***342**,850-853(2013).DOI:[10.1126/science.1244693](https://doi.org/10.1126/science.1244693)
+
+Zou, X. and Zhao, G. and Li, J. and Yang, Y. and Fang, Y. OBJECT BASED IMAGE ANALYSIS COMBINING HIGH SPATIAL RESOLUTION IMAGERY AND LASER POINT CLOUDS FOR URBAN LAND COVER, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, XLI-B3, 2016, 733\--739, https://isprs-archives.copernicus.org/articles/XLI-B3/733/2016/, DOI 10.5194/isprs-archives-XLI-B3-733-2016
+
+(No date) *Satellite Remote Sensing and the Marine Biodiversity Observation Network: Current Science and Future Steps \| Oceanography*. Available at: https://tos.org/oceanography/article/satellite-remote-sensing-and-the-marine-biodiversity-observation-network-current-science-and-future-steps.
+
+*Case studies -- google earth engine* (no date) *Google*. Available at: https://earthengine.google.com/case_studies/ (Accessed: 24 March 2024).
+
+*Churning in the Chukchi Sea* (no date) *NASA*. Available at: https://science.nasa.gov/resource/churning-in-the-chukchi-sea/.
+
+CIUPacifico (2021) *La desertificación y sequía: Una Consecuencia directa en Nuestras Vidas*, *CIUP*. Available at: https://ciup.up.edu.pe/analisis/la-desertificacion-y-sequia-una-consecuencia-directa-en-nuestras-vidas/.
+
+Dubovik, O. *et al.* (2021) *Grand challenges in Satellite Remote Sensing*, *Frontiers*. Available at: https://www.frontiersin.org/articles/10.3389/frsen.2021.619818/full
+
+Kim, M., Park, S.-E. and Lee, S.-J. (2023) *Detection of damaged buildings using temporal SAR data with different observation modes*, *MDPI*. Available at: https://www.mdpi.com/2072-4292/15/2/308.
+
+*Landsat 5* (2021) *NASA*. Available at: https://landsat.gsfc.nasa.gov/satellites/landsat-5/
+
+*gallery - glacial change in Montana\'s Blackfoot-Jackson Basin* *NASA*. Available at: https://landsat.visibleearth.nasa.gov/view.php?id=88190
+
+Li, M. (2023) *Mapping time-series satellite images with Google Earth Engine Api*. Available at: https://dlab.berkeley.edu/news/mapping-time-series-satellite-images-google-earth-engine-api-1
+
+*Lidar is one of the iPhone and iPad Pro\'s coolest tricks: Here\'s what else it can do* (no date) *CNET*. Available at: https://www.cnet.com/tech/mobile/lidar-is-one-of-the-iphone-ipad-coolest-tricks-its-only-getting-better/.
+
+Nordin, Z. *et al.* (2019) *The potential of building detection from SAR and Lidar using Deep Learning*, *The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences*. Available at: https://isprs-archives.copernicus.org/articles/XLII-4-W16/489/2019/.
+
+Norman, M. *et al.* (2021) \'Urban building detection using object-based image analysis (OBIA) and machine learning (ML) algorithms\', *IOP Conference Series: Earth and Environmental Science*, 620(1), p. 012010. doi:10.1088/1755-1315/620/1/012010.
+
+Sun, K., Cui, W. and Chen, C. (2021) *Review of Underwater Sensing Technologies and Applications*, *MDPI*. Available at: https://www.mdpi.com/1424-8220/21/23/7849
+
+Sykas, D. (2018) *Glacier mapping using Earth Observation Satellites*, *Medium*. Available at: https://medium.com/\@dimsyk/glacier-mapping-using-earth-observation-satellites-950da8f83945
+
+*Thematic mapper (TM)* (2023) *NASA*. Available at: https://landsat.gsfc.nasa.gov/thematic-mapper/
+
+Firigato, J.O.N. (2020) *Object based image analysis on Google Earth engine*, *Medium*. Available at: https://joaootavionf007.medium.com/object-based-image-analysis-on-google-earth-engine-1b80e9cb7312
+
+Schneiderbauer, Stefan, et al. \"Applied Remote Sensing in Mountain Regions: A Workshop Organized by EURAC in the Core of the Alps.\" *Mountain Research and Development*, vol. 27, no. 3, 2007, pp. 286--87. *JSTOR*, http://www.jstor.org/stable/25164137.
+
+Zhao Q, Yu L, Li X, Peng D, Zhang Y, Gong P. Progress and Trends in the Application of Google Earth and Google Earth Engine. *Remote Sensing*. 2021; 13(18):3778. https://doi.org/10.3390/rs13183778
+
+Juan Torres Guevara (2015), Desertification in Peru (Piura), Research Center for Arid Zones, of the Universidad Nacional Agraria, La Molina (CIZA-UNALM)

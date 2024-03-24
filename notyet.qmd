@@ -4,6 +4,12 @@
 
 This week I have decided to put all of my focus on the unsupervised machine learning method Object Based Image Classification. As it is quite complex I didnt want to take any other time explaining other methods and get this approach wrong. I will be getting a takeaway as soon as this entry is over as a reward. 
 
+```{r, echo=FALSE, out.width = "250px", fig.align='center'}
+
+knitr::include_graphics('OBIC.png')
+
+```
+
 ## OBIC
 
 The way I understood OBIA is that it thinks in objects and not pixels. The most important thing I consider to understand it is that it is a two step process. 
@@ -21,12 +27,22 @@ This is when image classification plays gets involved usually; for a computer to
 Segmentation helps you recognise groups forming from pixels. As sensor resolutions are getting stronger this is only growing in importance. Two of the most common segmentation techniques are k-means and SNIC.  
 
 *	 K-means 
-Groups data samples into K clusters, eeach sample belongs to the cluster with the nearest mean. The mean shift algorithm is a non-parametric algorithm that clusters data interactively by finding the densest regions (clusters) in a feature space. 
+Groups data samples into K clusters, each sample belongs to the cluster with the nearest mean. It clusters data interactively by finding the densest regions (clusters) in a feature space. 
 
-*	Simple Non-Iterative Clustering (SNIC), a novel approach
+*	Simple Non-Iterative Clustering (SNIC), a novel approach. 'Our algorithm clusters pixels without the use of the kmeans iterations to update the centroids, we update the centroids in a single iteration.' (Achanta et al, 2017)
 It assigns pixels to points through distance color and co-ordinates, representing normalised spatial and color distances.
 
-*I still dont particulary understand the methodologies behind these, and for transperacy these definitions are nearly verbatim from the source.*
+::: {layout="[[1,1], [1]]"}
+![K-means](kmeans.png)
+
+![SNIC](snic.png)
+
+
+:::
+
+Theres an argument to use both approaches and I suppose this is dependant on the model you use *I still dont particulary understand the methodologies behind these* but within remote sensing I'd sat a SNIC approach may have more uses as SNIC focuses on grouping pixels based on spatial proximity and pixel similarity (distance color and co-ordinates), whereas K-mean seperates data into clusters based on feature similarity without considering the spatial relationships.
+
+
 
 ### Classification 
 
@@ -74,7 +90,6 @@ knitr::include_graphics('picture19.png')
 
 ```
 
-### Effectiveness
 
 Although OBIA has been used and shown significant accuracies of PBIA in wetland areas, it is not completely triumphant. In fact when applying both methods to arctic wetlands no significant accuracies were detected and results had vague differences. 
 Still with the use of GEE and incorporating novel EO features  unexplored results were found that had shown information of wetland coverages and types at a Pan-Arctic scale at a greater scale. Especially useful in land surface and climate modelling. 
@@ -83,7 +98,6 @@ Still with the use of GEE and incorporating novel EO features  unexplored result
 ## Reflections 
 
 This is part of remote sensing that it took a long time to get my head around. The process seems to be convoluted and finding practical work in GEE seemed difficult. Although I can understand the use of this method as there is a lot of data at hand and machine learning can be used for automated outputs. 
-
-When I started this module I found interest in the fact that remote sensing is used to explore the earth that is unaccessible to humans, with methods like this it is quite amazing to judge the human effects to areas (such as contribution to climate change) with OBIC that are now impacting lands in Antartica. 
-
-
+ When I started this module I found interest in the fact that remote sensing is used to explore the earth that is unaccessible to humans, with methods like this it is quite amazing to judge the human effects to areas (such as contribution to climate change) with OBIC that are now impacting lands in Antartica. 
+ 
+ To help make sense of the topics this week I looked at what these are used for in industry. For instance, precision agriculture, where high-resolution satellite images are segmented into objects representing individual crop fields using OBIA. Deep learning models have then been used analyse these objects to classify crop types, assess health, and predict yields. Although, like much that is covered in this week its not very simple as this requires to 'investigate how CNN models should use OBIA outputs for feature extraction and classification of remotely sensed images' (Azeez et al, 2002). Analysis such as this, assessing ANN and OBIA together, is something that seems very powerful but at the same time very convoluted as they both require a complex understanding of the issue at hand. It makes me wonder if and when technology advances if these methods will then combine (much of like how OBIC combines segmentation and classification).

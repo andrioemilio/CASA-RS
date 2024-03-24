@@ -18,7 +18,7 @@ As well as this, it seemed that the stars had aligned and every show, piece of m
 
 I came out of this week with an overwhelming fear of how to make a concise entry that holds all of the points shown by Spongebob in [S01E02](https://www.rottentomatoes.com/tv/spongebob_squarepants/s01/e02) (not edited at all).
 
-```{r, echo=FALSE, out.width = "70%", fig.align='center', fig.cap="One of my facourite episodes"}
+```{r, echo=FALSE, out.width = "550px", fig.align='center', fig.cap="One of my facourite episodes"}
 
 knitr::include_graphics('issue_1/WK1.png')
 
@@ -27,7 +27,7 @@ knitr::include_graphics('issue_1/WK1.png')
 
 And then a path was formed!  (Shown by Spongebob in [S03E44](https://spongebob.fandom.com/wiki/Nasty_Patty), still, not edited at all.) 
 
-```{r, echo=FALSE, out.width = "70%", fig.align='center', fig.cap="Another of my facourite episodes"}
+```{r, echo=FALSE, out.width = "400px", fig.align='center', fig.cap="Another of my facourite episodes"}
 
 knitr::include_graphics('issue_1/Thought_Process_issue_1.png')
 

@@ -4,6 +4,14 @@
 
 This week I had watched **society of the snow** a film of the Andean plane crash in 1972, wherein a rugby team were left stranded in the Andes for 72 days. Somehow, 16 survivors made it out, but not without controversy (how did they stay alive exactly hmmm). This was fresh on my mind when walking into the tutorial on Thursday. So what better way to explore corrections than to attempt applying them on the location where the site crashed. 
  
+```{r, echo=FALSE, out.width = "250px", fig.align='center', fig.cap="Me on the blue mountains, Australia"}
+
+knitr::include_graphics('mountain.jpeg')
+
+
+```
+ 
+
 ##  Summary 
 
 To summarise enhancement and correction I made a very brief mind map (just a bit bigger than my dog)
@@ -96,7 +104,7 @@ knitr::include_graphics('issue_3/homogeniety.png')
 
 ## Reflection 
 
-I found this weeks diary entry very computationally difficult, so agian I attempted to entertain myself with this topic. It did however come with many challenges. The ideas I had seemed to overrun my computer or the output be not as expected for a mountainous snowy region. I had an idea to use the rayshader library to create a video such as the one shown below, this again was too computational for my computer but shows the vast terrain of the mountains.
+I found this weeks diary entry very computationally difficult, so agian I attempted to entertain myself with this topic. It did however come with many challenges. The ideas I had seemed to overrun my computer or the output be not as expected for a mountainous snowy region. I had an idea to use the rayshader library to create a video such as the one shown below so it can be applied to enhance the visualization of the terrain from satellite imagery making it easier to interpret surface features (and also very cool). This again was too computational for my computer but would show the vast terrain of the mountains that the survivors had to traverse.
 Still, I found this weeks entry the most interesting by far, the possibilities within enhancements and corrections for seem endless. I am very keen to use google earth engine now to speed up the processes of achieving results such as the one above! 
 
 
@@ -107,3 +115,4 @@ knitr::include_graphics('9.png')
 
 ```
 
+In my career before starting this master I worked upon the railway where I was tasked to map the whole of the Kent and Sussex track. For this I had just used data on where the track sat on the railway as well as a customised FME transformer. It was used to pinpoint issues within vegetation upon the track (not as simple as tree is overlaying it needs to chopped down, some are protected!) so this technology I feel could be utilised in monitoring vegetation instead of routine surveying. I wonder whether remote sensing technology has the ability yet to detect the specific type of vegetation as I assume different types of vegetation reflect NIR differently.

@@ -170,7 +170,7 @@ background-size: cover;
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
+  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Texture video</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -188,8 +188,7 @@ background-size: cover;
    
   <ul>
 <li><a href="#urban-heat-island" id="toc-urban-heat-island" class="nav-link active" data-scroll-target="#urban-heat-island">Urban Heat Island</a></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">Applications</a></li>
-  <li><a href="#flood-risk" id="toc-flood-risk" class="nav-link" data-scroll-target="#flood-risk">Flood risk</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application">Application</a></li>
   <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection">Reflection</a></li>
   </ul><div class="toc-actions"><ul><li><a href="https://github.com/andrioemilio/CASA-RS/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -199,6 +198,31 @@ background-size: cover;
 
 
 <p>The final entry, my brain is about to explode. This week I was still wrapping up to get to class but at the same time overheating on the tube the way there. It was like the exact opposite of what happened when I visited Tokyo a couple years back, it was so warm and human that I would relish getting publish transport for the air-con. I’d say my favourite time there however was visiting the cup-noodle museum, I still have a candle and got to make my own noodles!</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[1, 1, 1], [1]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="candle.jpeg" class="img-fluid figure-img"></p>
+<figcaption>My candle 2024</figcaption></figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="museum.jpeg" class="img-fluid figure-img"></p>
+<figcaption>the museum in 2018</figcaption></figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="bar.jpeg" class="img-fluid figure-img"></p>
+<figcaption>19 year old me singing in the same bar as the one in lost in translation!</figcaption></figure>
+</div>
+</div>
+</div>
+</div>
 <p>Todays entry I’d like to explore heat in the Tokyo region and collate it with further global problems</p>
 <section id="urban-heat-island" class="level2"><h2 class="anchored" data-anchor-id="urban-heat-island">Urban Heat Island</h2>
 <p>Why is remote sensing temperature of importance? Temperature is one of the most important aspects in remote sensing, it can be used to monitor plant water stress, heat island effects and land cover change.</p>
@@ -213,10 +237,10 @@ background-size: cover;
 <ul>
 <li>Urban Heat islands</li>
 </ul>
-<p>Urban Heat islands are the occurrence of higher temperatures in urbanised areas compares rural, it can lead to discomfort higher energy consumption and aggravated pollution. Using thermal sensors therefore allows to recognise the most problematic areas and if policy such as the Mayor of London encourages the design of spaces to avoid excessive heat generation is working effectively.</p>
-<p>Many sensors are used to explore this phenomenon such as the Thematic Mapper, MODIS, Sea and Land Surface Temperature Radiometer and Prototype HyspIRI Thermal Infrared Radiometer. So I’ll be exploring a new sensor today withing GEE which is the MODerate-resolution Imaging Spectroradiometer (MODIS). MODIS captures data in 36 spectral bands ranging from visible to thermal infrared at varying spatial resolutions (from 250m to 1km). This capability allows MODIS to provide detailed observations of temperature across the Earth’s surface.</p>
-</section><section id="applications" class="level2"><h2 class="anchored" data-anchor-id="applications">Applications</h2>
-<p>To prove if urban heat islands exists I therefore used Tokyo as an example because I actually when I went. It uses Aqua and Terra to visualise temperature. Its clear to see, with Tokyo being one of the most densley populates cities in the world that urban heat island exists there. Veering out of the city, the heat reduces.</p>
+<p>Urban Heat islands are the occurrence of higher temperatures in urbanised areas compares rural, it can lead to discomfort higher energy consumption and aggravated pollution. Using thermal sensors therefore allows to recognise the most problematic areas.</p>
+<p>An example of this within policy is the Mayor of Londons encouragement in the design of spaces to avoid excessive heat generation. A GEE application involving data that collects thermal heat can be applied to assess if the policy is working!</p>
+<p>Many sensors are used to explore this phenomenon such as the Thematic Mapper, MODIS, Sea and Land Surface Temperature Radiometer and Prototype HyspIRI Thermal Infrared Radiometer. So I’ll be exploring a new sensor today withing GEE which is the MODerate-resolution Imaging Spectroradiometer (MODIS). MODIS captures data in 36 spectral bands ranging from visible to thermal infrared at varying spatial resolutions (from 250m to 1km). This capability allows MODIS to provide detailed observations of temperature across the Earth’s surface. It also has a high temporal resolution, permitting its ability to capture daily images and therefore showing the ability of variation in temperature than other sensors such as Landsat. It does by both Terra and Aqua satellites containing the Moderate Resolution Imaging Spectroradiometer and then combines the two to provide a comprehensive view of the Earth.</p>
+<p>To prove if urban heat islands is real (always the skeptic) I therefore used Tokyo as an example because I actually when I went. It uses Aqua and Terra to visualise temperature. Its clear to see, with Tokyo being one of the most densley populates cities in the world that urban heat island exists there. Veering out of the city, the heat reduces.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -225,7 +249,7 @@ background-size: cover;
 </div>
 </div>
 </div>
-<p>Google earth engine can also produce a time series to monitor the temperature, this can be compared yearly to track changes in heat in locations.</p>
+<p>Google earth engine can also produce a time series to monitor the temperature, this can be compared yearly to track changes in heat in locations (kind of like what you can see with currency changes or covid-19 rates).</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -234,7 +258,30 @@ background-size: cover;
 </div>
 </div>
 </div>
-</section><section id="flood-risk" class="level2"><h2 class="anchored" data-anchor-id="flood-risk">Flood risk</h2>
+</section><section id="application" class="level2"><h2 class="anchored" data-anchor-id="application">Application</h2>
+<p>LC classification This research shows the capacity of google earth engine in using large scale remote sensing imagery for analysis. It examines how land surface temperatures and land cover changes in part influence the effects of an urban heat island. A key part of the study involved used google earth engine in developing a methodology for correlating changes in land surface temperature with alterations in land cover on a large scale.</p>
+<p>They primarily used findings from Phoenix and this indicated that urbanisation significantly influences the magnitude of UHI effects, leading to notable increases in land surface temperature.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="issue7/landcover.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>As well as a map from google earth engine to show this, they produced a constant matrix to compare the changes in a 20 year period. It shows the baseline or starting temperatures associated with different land cover types and states how they have shifted due to urbanisation or land cover changes. From this, even in 1992, the higher land surface temperatures are located in the urbanised areas.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="constantmatrix.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>My take from this paper is that it shows that with a robust methodology you can effectively monitor the urban heat island phenomenon and shows the impact of urban expansion towards land cover changes in google earth engine.</p>
+<p>Although this doesnt come without challenges and debate within the creation of this to monitor urban heat island. Some challenges include the availability of the date and coverage of the satellite they decide to use. In their instance they used Landsat 8. As well as this, the classification of land cover can be hard to segment. Even seen in this report as land cover classification had changed from 1992 to 2012 (the analysis coverage dates). Furthermore, the type of classification was not stated within the paper which makes the paper difficult to replicate or use the framework to analyse the urban heat island effect in other cities. Without the data being reproducible their conclusion of the use urban heat island effects will not be able to be clarified by other research with the same methodology. This also leads to questioning of the methodology to account for the complex factors in causes the urban heat island phenomenon. This phenomonon is stated to require a complex methodology and not risk simplifying and failing to account for what the data presents. Causality is not causation!</p>
+</section><section id="reflection" class="level2"><h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
+<p>What I discovered upon researching urban heat island and uses within google earth engine is that there were plenty of cases that discussed this but with altering methodologies. Of course the more research the better but it did lead me to think that perhaps theres too many chefs in the kitchen cooking up different recipes to just make a bolognese. Is it necessary to hold a different methodology for the same case of urban heat island and if this is the case how can these be compared with one another?</p>
 <p>Similar to the issues of temperature, google earth engine has a plethora of options to utilise and witness the effects of climate change towards flooding. Here I have utilised pre-set code that shows flood risk in a polygon that I drew of London at a random date because its always wet here.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -244,9 +291,18 @@ background-size: cover;
 </div>
 </div>
 </div>
-<p>I’d say the effects of floods are quite comparable to the effects of temperature, an Idea I had is producing a layer of both urban heat map and flood risk for London top see correlationbs.</p>
-</section><section id="reflection" class="level2"><h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
-<p>This weeks entry was quite frustrastingly sparse. This is due to my idea to transfer the heat map into a flood map failing. I had utilised youtube tutorials but couldnt find a way to clip my ROI. I have however enjoyed seeing the catalogues of data that Google Earth Engine has in regards to heat monitoring and its impacts. It seems to really shine within this aspect of remote sensing data.</p>
+<p>I’d say the effects of floods are quite comparable to the effects of temperature, an Idea I had is producing a layer of both urban heat map and flood risk for London top see correlations.</p>
+<p>This weeks entry was quite frustrastingly sparse. This is due to my idea to transfer the heat map into a flood map failing. I had utilised youtube tutorials but couldnt find a way to clip my ROI.</p>
+<p>I have however enjoyed seeing the catalogues of data that Google Earth Engine has in regards to heat monitoring and its impacts. It seems to really shine within this aspect of remote sensing data.</p>
+<p>Cheers! Time for a pint…</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="cheers.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+</div>
+</div>
 
 
 </section><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
@@ -807,8 +863,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./summary.html" class="pagination-link" aria-label="Summary">
-        <span class="nav-page-text"><span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./summary.html" class="pagination-link" aria-label="Texture video">
+        <span class="nav-page-text"><span class="chapter-title">Texture video</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

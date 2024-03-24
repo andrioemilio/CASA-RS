@@ -170,7 +170,7 @@ background-size: cover;
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
+  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Texture video</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -187,8 +187,9 @@ background-size: cover;
         <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Table of contents</h2>
    
   <ul>
-<li>
-<a href="#application" id="toc-application" class="nav-link active" data-scroll-target="#application">Application</a>
+<li><a href="#gee" id="toc-gee" class="nav-link active" data-scroll-target="#gee">GEE</a></li>
+  <li>
+<a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application">Application</a>
   <ul class="collapse">
 <li><a href="#belfast" id="toc-belfast" class="nav-link" data-scroll-target="#belfast">Belfast</a></li>
   <li><a href="#more-applications" id="toc-more-applications" class="nav-link" data-scroll-target="#more-applications">More applications</a></li>
@@ -203,26 +204,30 @@ background-size: cover;
 
 <p>After being hot on the heels of all things Latin America, I wanted to explore an exotic island full of amazing weather &amp; explore a new, culturally different country than England. So I was left very bewildered when I spent this weekend in Belfast. Still, it’s the city my grandfather was from until he moved to Doncaster of all places and became a miner (he actually led some riots in the 80’s, Paddy was a cool man). For this weeks entry I’ll exploring Belfast in google earth engine! It might be interesting to see if there are any differences between east and west Belfast in Satellite data, as it is very apparent in the city still to this day.</p>
 <p>Below are images I took in west and east Belfast showing the complete culture differences within the same city.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[1,1], [1]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="Issue6/West.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
-</figure>
+<figure class="figure"><p><img src="Issue6/East.jpeg" class="img-fluid figure-img"></p>
+<figcaption>East</figcaption></figure>
 </div>
 </div>
-</div>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="Issue6/East.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
-</figure>
+<figure class="figure"><p><img src="Issue6/West.jpeg" class="img-fluid figure-img"></p>
+<figcaption>West</figcaption></figure>
 </div>
 </div>
 </div>
-<p>Google earth engine is a one stop shop for analysing remote sensing data (or two stop if you need to clip a shapefile like I have). It has catalogues of satellite imagery and datasets readily available, much like previous work I have attempted in R but with the capacity to handle this much quicker. It also requires javascript input unlike R studio (but not much at all).</p>
-<section id="application" class="level2"><h2 class="anchored" data-anchor-id="application">Application</h2>
+</div>
+<section id="gee" class="level2"><h2 class="anchored" data-anchor-id="gee">GEE</h2>
+<p>Google earth engine is a free access platform that allows access to huge voloumes of data with a plethora of support tools that can be used to monitor spatial environments. Now, there has been growing use of the platform. Namely land management and planning. You probably have see some of its uses without even knowing, a very recent case of this is its use in tracking the covid-19 outbreak. Very nifty! Its especially useful in it being a one stop shop for analysing remote sensing data (or two stop if you need to clip a shapefile like I have). It has catalogues of satellite imagery and datasets readily available. From tne applications I have seen this is especially important as different datasets are used together in much remote sensing analyses. The breakdown of coding is much like previous work I have attempted in R but with the capacity to handle this much quicker. It also requires javascript input unlike R studio (but not much at all).</p>
+</section><section id="application" class="level2"><h2 class="anchored" data-anchor-id="application">Application</h2>
 <section id="belfast" class="level3"><h3 class="anchored" data-anchor-id="belfast">Belfast</h3>
-<p>I first of all used the coordinates of the street that my grandfather was born and found a GADM shapefile to correspond with clipping the area of interest of Belfast.</p>
+<p>Time to explore the hometown of Paddy Close (my grandfather). To do this I loaded in L-8 level 2 collection 2 images from Landsat. I first of all used the coordinates of the street that my grandfather was born and found a GADM shapefile to correspond with clipping the area of interest, Belfast.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -231,16 +236,9 @@ background-size: cover;
 </div>
 </div>
 </div>
-<p>After adjusting cloud cover and clipping I then sought to do a few tidbits of analysis.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="Issue6/clipping.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>I have also performed NDGI and it shows nothing much of what you would expect; less vegetation near the centre more on the outskirts.</p>
+<p>After adjusting cloud cover and clipping I then sought to do a few tidbits of analysis. Adjusting the cloud cover and clipping it to the shapefile of Belfast is imperative to actually see the area as it can be overshadowed by the clouds as well as giving the clear area of study</p>
+<p>I have also performed NDVI of the area which tells of the health and density of vegetation in an area. It does this by measures the difference of near infrarer light as vegetation strongly reflects this. And so, more green indicates denser vegetation.</p>
+<p>It shows nothing much of what you would expect; less vegetation near the centre more on the outskirts.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -249,7 +247,7 @@ background-size: cover;
 </div>
 </div>
 </div>
-<p>The GLCM of Belfast I found particularly interesting to see, as the contrast between neighbouring pixels as a measure of the texture shows that East and West Belfast have significant spikes in change, signifying that there is a dense urban environment in the two and that North and South isn’t as dense.</p>
+<p>The GLCM of Belfast I found particularly interesting to see, as the contrast between neighbouring pixels as a measure of the texture shows that East and West Belfast have significant spikes in change, signifying that there is a dense urban environment in the two and that North and South Belfast isn’t as dense. This supports the two cultures in the city, thsoe of the West &amp; East.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -297,18 +295,57 @@ background-size: cover;
 </div>
 </div>
 <p>The Global Health Group San Francisco used Earth Engine for malaria risk mapping to forecast outbreaks.</p>
+<p>As seen from the examples there are a plethora of uses in google earth engine, some even offer the code so you can apply these to your own interests for analysis. In fact 90 journals published articles on GEE in a 2 year period since January 2020. In these papers most revolve around areas within remote sensing of the environment. What I did find poignant however is the lack of studies based within less developed nations as this is such an ideal tool to provide an analysis in areas such as heat and flood risk as well as assessing the health of local vegetation. The map below shows this, with a breakdown of application of GEE by each country</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="breakdown.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Some of the most popular data recorded from this are Landsat 8 and Sentinel 2. These make sense due to the already applicability used in previous studies.</p>
+<p>As well as this, it offers less of a barrier to entry due to its easy accessibility to use. I can see why as there’s less of a need for SNAP or to search, find &amp; process data in R.</p>
 </section><section id="reflections" class="level3"><h3 class="anchored" data-anchor-id="reflections">Reflections</h3>
 <p>I found GEE a joy to utilise but again seemed like a hurdle to handle to get control of. It reminded me of when I started my career in analysis and got handed a huge on powerBI and was asked to produce something by the end of the week. I also had issues in clipping. Basically, my initial clip was just the area in where my grandfather was born so when I applied NDVI to it the resolution was not high enough to provide any difference.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="issue6/clipping.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="902"></p>
+<figure class="figure"><p><img src="issue6/clipping.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="300"></p>
 </figure>
+</div>
+</div>
+</div>
+<p>Alongside this and after the entry on the Andean mountains I was curious to explore other ratios and textures. Some that I feel that could be applied to the case in Belfast is the NDBI (Normalized Difference Built-up Index) that would show built-up areas from natural landscapes and weather there is differences in east to west. As well as using contrast in GLCM which would show presence of distincts boundaries. Further into this, perhaps another method/type of inmagery could be used to tell if the buildings are structurally and materially different from east to west Belfast. I found that this can be achieved within a combination of spectral bands and texture features to show the form of contructional materials, paint or rood colours!</p>
+<p>You may be thinking why did I stop at GLCM and not move on to some PCA, I attempted this in engine using the classes example but recieved around 90 layers. I didnt implement this into the application section as I was unsure if I did a line of code wrong implementing this or if most variations were just located in some of the first instences of PCA (shown below).</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[1,1,1], [1]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="Issue6/PCA.png" class="img-fluid figure-img"></p>
+<figcaption>PCA1</figcaption></figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="Issue6/PCA2.png" class="img-fluid figure-img"></p>
+<figcaption>PCA2</figcaption></figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="Issue6/PCA3.png" class="img-fluid figure-img"></p>
+<figcaption>PCA3</figcaption></figure>
+</div>
 </div>
 </div>
 </div>
 <p>I also found it difficult to think of a way to discuss the application, this is why it was based upon the cases provided by them to show what the engine is capable of.</p>
 <p>Other than that I can see myself toying around with google earth engine from even in my day to day life. I dont think its a talent I can whip out at parties however.</p>
+<p>One thing that I think is very important within google earth engines landscape is the consideration personal data inputted, it runs the risk of vulnerable information being shown to the masses.</p>
 
 
 </section></section><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
