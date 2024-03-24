@@ -13,7 +13,8 @@ This week work seemed a tad daunting for me, and whenever I feel overwhelmed I l
 There are many different supervised learning applications in google earth engine. Below is an explanation of some and there corresponding cases.
 
 - CART 
-CART predicts the value of a target variable by analysing other matters. It then constructs a decision tree where each branch represents a decision based on the variables found and each leaf node provides a prediction for the target variable. 
+
+Predicts the value of a target variable by analysing other matters. It then constructs a decision tree where each branch represents a decision based on the variables found and each leaf node provides a prediction for the target variable. 
 
 It starts with a training set as the root node, then divides into subsets using the most suitable attribute. This splitting continues until the tree reaches pure subsets or the predetermined maximum number of leaves.
 
@@ -30,11 +31,6 @@ This uses classification and regression trees to create layers in google earth e
 
 Some of the layers created include: Existing Vegetation Canopy Cover (EVC) and Existing Vegetation Type (EVT).
 
-```{r, echo=FALSE, out.width = "70%", fig.align='center'}
-
-knitr::include_graphics('issue7/LANDFIRE.png')
-
-```
 
 -   Random Forests
 
@@ -44,7 +40,7 @@ IrrMapper is an annual classification of irrigation status in the 11 Western Uni
 
 
 
-```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+```{r, echo=FALSE, out.width = "300px", fig.align='center'}
 
 knitr::include_graphics('issue7/2.png')
 
@@ -56,7 +52,7 @@ SVM finds the hyperplane that best separates different classes in the feature sp
 
 The World Settlement Footprint (WSF) 2015 outlines the extent of human settlements globally derived by means of 2014-2015 multitemporal Landsat-8 and Sentinel-1 imagery. Different classification schemes based on Support Vector Machines (SVMs) are separately applied to the optical and radar temporal features.
 
-```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+```{r, echo=FALSE, out.width = "300px", fig.align='center'}
 
 knitr::include_graphics('issue7/3.png')
 

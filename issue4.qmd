@@ -92,12 +92,7 @@ Texture of the ground would be important to view the challenge of traversing thr
 knitr::include_graphics('Issue_3/contrast.png')
 
 ```
-Second is homogeniety.
-```{r, echo=FALSE, out.width = "70%", fig.align='center'}
 
-knitr::include_graphics('issue_3/homogeniety.png')
-
-```
  
 
 
